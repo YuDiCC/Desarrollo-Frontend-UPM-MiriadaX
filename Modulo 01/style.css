@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1, h2 {color: #333;}
+
+section, article, nav, aside {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+pre{white-space: pre-wrap;}
+
+footer {
+    text-align: center;
+    width: calc(100% + 40px);
+    margin: -20px 0px -20px -20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #1c2944;
+    color: #f0f0f0;
+    -webkit-box-shadow: 0px -10px 6px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -10px 6px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px -10px 6px -8px rgba(0,0,0,0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {color: #a9b9b9;}
+
+div.social-networks a > i{
+    font-size: 2em;
+    margin: 10px;
+}
+
+@media (max-width: 600px) {
+
+    body{font-size: 1em;}
+
+    h1{font-size: 1.7em;}
+
+    h2{font-size: 1.5em}
+
+    h3{font-size: 1.3em;}
+
+    footer{font-size: 0.75em;}
+    
+}
